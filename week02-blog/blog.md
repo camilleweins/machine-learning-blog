@@ -6,21 +6,16 @@ One of the issues I kept having is that ml5 will return an error that it cannot 
 
 ## Results
 
-!input]
-(images/input.png?raw=true)
+![input](https://github.com/camilleweins/machine-learning-blog/blob/master/week02-blog/images/input.png?raw=true)
 
-![result]
-(/images/mainecoon.png?raw=true)
+![result](https://github.com/camilleweins/machine-learning-blog/blob/master/week02-blog/images/mainecoon.png?raw=true)
 
-![result]
-(images/racoon.png?raw=true)
+![result](https://github.com/camilleweins/machine-learning-blog/blob/master/week02-blog/images/racoon.png?raw=true)
 
 One of the biggest issues is that I am always retraining my model upon refresh, so it would be ideal to implement a save feature and then have that one model loaded every time. I think this would help with the consistency because right now about 60% of the time I have run the program it will label the input image correctly and 40% of the time it won't. Really, my goal was to not use the webcam because my cat didn't want to be my test subject. I also could have added a block that tells the user that the model is being trained instead of needing to watch the console like a hawk.
 
 I'm also not sure why in the console it displays the result label and the training result multiple times?
 
-![console image 1]
-(/images/console-msg1.png?raw=true)
+![console image 1](https://github.com/camilleweins/machine-learning-blog/blob/master/week02-blog/images/console-msg1.png?raw=true)
 
-![Image of error 2]
-(images/console-msg2.png?raw=true)
+![Image of error 2](https://github.com/camilleweins/machine-learning-blog/blob/master/week02-blog/images/console-msg2.png?raw=true)
