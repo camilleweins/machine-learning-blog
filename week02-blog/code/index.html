@@ -1,0 +1,76 @@
+<!--
+ Copyright (c) 2018 ml5
+
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+-->
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>KNN Classification on Webcam Images with mobileNet. Built with p5.js</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+  <script src="https://unpkg.com/ml5" type="text/javascript"></script>
+  <!-- <script src="http://localhost:8080/ml5.js" type="text/javascript"></script> -->
+
+  <style>
+  /* button {
+    margin: 6px 6px 6px 0;
+    padding: 4px;
+    font-size: 14px;
+  }
+  video {
+    width: 300;
+    height: 300;
+  }
+  p {
+    display: inline;
+    font-size: 16px;
+  }
+  .emoji {
+    font-size: 24px;
+  } */
+  img {
+  width: 150px;
+  height: 150px;
+  display: inline;
+}
+  </style>
+</head>
+
+<body>
+     <p>Input Image:</p>
+     <img src="images/test.jpg" alt="input img" id="inputImg">
+     <p>Racoon:</p>
+     <img src="images/racoon1.jpg" alt="racoon img" id="racoonImg1">
+     <img src="images/racoon2.jpg" alt="racoon img" id="racoonImg2">
+     <img src="images/racoon3.png" alt="racoon img" id="racoonImg3">
+     <img src="images/racoon4.jpg" alt="racoon img" id="racoonImg4">
+     <img src="images/racoon5.jpg" alt="racoon img" id="racoonImg5">
+     <img src="images/racoon6.gif" alt="racoon img" id="racoonImg6">
+     <img src="images/racoon7.jpg" alt="racoon img" id="racoonImg7">
+     <img src="images/racoon8.jpg" alt="racoon img" id="racoonImg8">
+
+     <p>Maine Coon:</p>
+     <img src="images/mainecoon1.jpg" alt="maine coon img" id="mainecoonImg1">
+     <img src="images/mainecoon2.jpg" alt="maine coon img" id="mainecoonImg2">
+     <img src="images/mainecoon3.jpg" alt="maine coon img" id="mainecoonImg3">
+     <img src="images/mainecoon4.jpg" alt="maine coon img" id="mainecoonImg4">
+     <img src="images/mainecoon5.jpg" alt="maine coon img" id="mainecoonImg5">
+     <img src="images/mainecoon6.jpg" alt="maine coon img" id="mainecoonImg6">
+     <img src="images/mainecoon7.jpg" alt="maine coon img" id="mainecoonImg7">
+     <img src="images/mainecoon8.jpg" alt="maine coon img" id="mainecoonImg8">
+  <div>
+  </div>
+  <p>
+   KNN Classifier with mobileNet model labeled this
+   as Class:
+  </p>
+  <h1 id="result">...</h1>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
